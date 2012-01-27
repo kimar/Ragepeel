@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AA3B48914D2B43B00922477 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA3B48814D2B43B00922477 /* UIKit.framework */; };
+		2AA3B48B14D2B43B00922477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA3B48A14D2B43B00922477 /* Foundation.framework */; };
+		2AA3B48D14D2B43B00922477 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA3B48C14D2B43B00922477 /* CoreGraphics.framework */; };
+		2AA3B49314D2B43B00922477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AA3B49114D2B43B00922477 /* InfoPlist.strings */; };
+		2AA3B49514D2B43B00922477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3B49414D2B43B00922477 /* main.m */; };
+		2AA3B49914D2B43B00922477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3B49814D2B43B00922477 /* AppDelegate.m */; };
+		2AA3B49C14D2B43B00922477 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA3B49A14D2B43B00922477 /* MainStoryboard.storyboard */; };
+		2AA3B49F14D2B43C00922477 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3B49E14D2B43C00922477 /* FirstViewController.m */; };
+		2AA3B4A114D2B43C00922477 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA3B4A014D2B43C00922477 /* first.png */; };
+		2AA3B4A314D2B43C00922477 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA3B4A214D2B43C00922477 /* first@2x.png */; };
+		2AA3B4A614D2B43C00922477 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3B4A514D2B43C00922477 /* SecondViewController.m */; };
+		2AA3B4A814D2B43C00922477 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA3B4A714D2B43C00922477 /* second.png */; };
+		2AA3B4AA14D2B43C00922477 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA3B4A914D2B43C00922477 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AA3B48414D2B43B00922477 /* Ragefac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ragefac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA3B48814D2B43B00922477 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AA3B48A14D2B43B00922477 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AA3B48C14D2B43B00922477 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AA3B49014D2B43B00922477 /* Ragefac-Info.plist */ = {isa = PBXFileReference; path = "Ragefac-Info.plist"; sourceTree = "<group>"; };
+		2AA3B49214D2B43B00922477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AA3B49414D2B43B00922477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AA3B49614D2B43B00922477 /* Ragefac-Prefix.pch */ = {isa = PBXFileReference; path = "Ragefac-Prefix.pch"; sourceTree = "<group>"; };
+		2AA3B49714D2B43B00922477 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AA3B49814D2B43B00922477 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AA3B49B14D2B43B00922477 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2AA3B49D14D2B43B00922477 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		2AA3B49E14D2B43C00922477 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2AA3B4A014D2B43C00922477 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		2AA3B4A214D2B43C00922477 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		2AA3B4A414D2B43C00922477 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		2AA3B4A514D2B43C00922477 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2AA3B4A714D2B43C00922477 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		2AA3B4A914D2B43C00922477 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AA3B48114D2B43B00922477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA3B48914D2B43B00922477 /* UIKit.framework in Frameworks */,
+				2AA3B48B14D2B43B00922477 /* Foundation.framework in Frameworks */,
+				2AA3B48D14D2B43B00922477 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA3B47914D2B43B00922477 = {
+			isa = PBXGroup;
+			children = (
+				2AA3B48E14D2B43B00922477 /* Ragefac */,
+				2AA3B48714D2B43B00922477 /* Frameworks */,
+				2AA3B48514D2B43B00922477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AA3B48514D2B43B00922477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AA3B48414D2B43B00922477 /* Ragefac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AA3B48714D2B43B00922477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AA3B48814D2B43B00922477 /* UIKit.framework */,
+				2AA3B48A14D2B43B00922477 /* Foundation.framework */,
+				2AA3B48C14D2B43B00922477 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AA3B48E14D2B43B00922477 /* Ragefac */ = {
+			isa = PBXGroup;
+			children = (
+				2AA3B49714D2B43B00922477 /* AppDelegate.h */,
+				2AA3B49814D2B43B00922477 /* AppDelegate.m */,
+				2AA3B49A14D2B43B00922477 /* MainStoryboard.storyboard */,
+				2AA3B49D14D2B43B00922477 /* FirstViewController.h */,
+				2AA3B49E14D2B43C00922477 /* FirstViewController.m */,
+				2AA3B4A014D2B43C00922477 /* first.png */,
+				2AA3B4A214D2B43C00922477 /* first@2x.png */,
+				2AA3B4A414D2B43C00922477 /* SecondViewController.h */,
+				2AA3B4A514D2B43C00922477 /* SecondViewController.m */,
+				2AA3B4A714D2B43C00922477 /* second.png */,
+				2AA3B4A914D2B43C00922477 /* second@2x.png */,
+				2AA3B48F14D2B43B00922477 /* Supporting Files */,
+			);
+			path = Ragefac;
+			sourceTree = "<group>";
+		};
+		2AA3B48F14D2B43B00922477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AA3B49014D2B43B00922477 /* Ragefac-Info.plist */,
+				2AA3B49114D2B43B00922477 /* InfoPlist.strings */,
+				2AA3B49414D2B43B00922477 /* main.m */,
+				2AA3B49614D2B43B00922477 /* Ragefac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AA3B48314D2B43B00922477 /* Ragefac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA3B4AD14D2B43C00922477 /* Build configuration list for PBXNativeTarget "Ragefac" */;
+			buildPhases = (
+				2AA3B48014D2B43B00922477 /* Sources */,
+				2AA3B48114D2B43B00922477 /* Frameworks */,
+				2AA3B48214D2B43B00922477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ragefac;
+			productName = Ragefac;
+			productReference = 2AA3B48414D2B43B00922477 /* Ragefac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AA3B47B14D2B43B00922477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2AA3B47E14D2B43B00922477 /* Build configuration list for PBXProject "Ragefac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AA3B47914D2B43B00922477;
+			productRefGroup = 2AA3B48514D2B43B00922477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AA3B48314D2B43B00922477 /* Ragefac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AA3B48214D2B43B00922477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA3B49314D2B43B00922477 /* InfoPlist.strings in Resources */,
+				2AA3B49C14D2B43B00922477 /* MainStoryboard.storyboard in Resources */,
+				2AA3B4A114D2B43C00922477 /* first.png in Resources */,
+				2AA3B4A314D2B43C00922477 /* first@2x.png in Resources */,
+				2AA3B4A814D2B43C00922477 /* second.png in Resources */,
+				2AA3B4AA14D2B43C00922477 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AA3B48014D2B43B00922477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA3B49514D2B43B00922477 /* main.m in Sources */,
+				2AA3B49914D2B43B00922477 /* AppDelegate.m in Sources */,
+				2AA3B49F14D2B43C00922477 /* FirstViewController.m in Sources */,
+				2AA3B4A614D2B43C00922477 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AA3B49114D2B43B00922477 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA3B49214D2B43B00922477 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AA3B49A14D2B43B00922477 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA3B49B14D2B43B00922477 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AA3B4AB14D2B43C00922477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AA3B4AC14D2B43C00922477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AA3B4AE14D2B43C00922477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ragefac/Ragefac-Prefix.pch";
+				INFOPLIST_FILE = "Ragefac/Ragefac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AA3B4AF14D2B43C00922477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ragefac/Ragefac-Prefix.pch";
+				INFOPLIST_FILE = "Ragefac/Ragefac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AA3B47E14D2B43B00922477 /* Build configuration list for PBXProject "Ragefac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA3B4AB14D2B43C00922477 /* Debug */,
+				2AA3B4AC14D2B43C00922477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA3B4AD14D2B43C00922477 /* Build configuration list for PBXNativeTarget "Ragefac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA3B4AE14D2B43C00922477 /* Debug */,
+				2AA3B4AF14D2B43C00922477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AA3B47B14D2B43B00922477 /* Project object */;
+}

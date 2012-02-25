@@ -6,8 +6,16 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#define kDebug YES
 
-@protocol Constants <NSObject>
+#define kApiUrl @"http://ragefac.es/api"
+#define kApiTimeout 30
+#define kApiValidateSsl NO
 
-@end
+#define kShowHiddenFaces NO
+
+#define kNotificationApiQueryDone @"notificationApiQueryDone"
+#define kNotificationApiQueryCategoriesDone @"notificationApiQueryCategoriesDone"
+#define kNotificationApiQueryTagsDone @"notificationApiQueryTagsDone"
+#define kNotificationApiQueryCatDone @"notificationApiQueryCatDone"
+#define kNotificationApiQueryTagDone @"notificationApiQueryTagDone"

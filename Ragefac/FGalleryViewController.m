@@ -301,7 +301,7 @@
 	[self layoutViews];
 	
 	// update status bar to be see-through
-	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:animated];
+	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:animated];
 	
 	// init with next on first run.
 	if( _currentIndex == -1 ) [self next];

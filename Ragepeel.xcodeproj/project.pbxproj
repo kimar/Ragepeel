@@ -84,12 +84,6 @@
 		2A4DC0EA14D6E12300A17363 /* SHKShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4DC0AA14D6E12300A17363 /* SHKShareMenu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2A4DC0EB14D6E12300A17363 /* SHKViewControllerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4DC0AC14D6E12300A17363 /* SHKViewControllerWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2A4DC0EE14D6E33800A17363 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4DC0ED14D6E33800A17363 /* Security.framework */; };
-		2A4DC0F014D6EA0100A17363 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4DC0EF14D6EA0100A17363 /* Default@2x.png */; };
-		2A4DC0F214D6EA0300A17363 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4DC0F114D6EA0300A17363 /* Default.png */; };
-		2A4DC0F414D6EA0600A17363 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4DC0F314D6EA0600A17363 /* Icon@2x.png */; };
-		2A4DC0F614D6EA0800A17363 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4DC0F514D6EA0800A17363 /* Icon.png */; };
-		2A4DC0F914D6EA1900A17363 /* WelcomeBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4DC0F714D6EA1900A17363 /* WelcomeBg@2x.png */; };
-		2A4DC0FA14D6EA1900A17363 /* WelcomeBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4DC0F814D6EA1900A17363 /* WelcomeBg.png */; };
 		2A4DC0FD14D6EDDA00A17363 /* 15-tags.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4DC0FB14D6EDDA00A17363 /* 15-tags.png */; };
 		2A4DC0FE14D6EDDA00A17363 /* 15-tags@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4DC0FC14D6EDDA00A17363 /* 15-tags@2x.png */; };
 		2A4DC10114D6EE2700A17363 /* 104-index-cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4DC0FF14D6EE2700A17363 /* 104-index-cards.png */; };
@@ -127,6 +121,12 @@
 		2AA3B4DE14D2B92F00922477 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA3B4DD14D2B92F00922477 /* MobileCoreServices.framework */; };
 		2AA3B4E014D2B93300922477 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA3B4DF14D2B93300922477 /* MessageUI.framework */; };
 		2AA3B4E214D2B9A300922477 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA3B4E114D2B9A300922477 /* SystemConfiguration.framework */; };
+		2AC5258D14D74211001E0E85 /* 291-idcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5258B14D74211001E0E85 /* 291-idcard.png */; };
+		2AC5258E14D74211001E0E85 /* 291-idcard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5258C14D74211001E0E85 /* 291-idcard@2x.png */; };
+		2AC5259014D7ECE4001E0E85 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5258F14D7ECE4001E0E85 /* Icon@2x.png */; };
+		2AC5259214D7ECE7001E0E85 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5259114D7ECE7001E0E85 /* Icon.png */; };
+		2AC5259414D7EE14001E0E85 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5259314D7EE14001E0E85 /* Default@2x.png */; };
+		2AC5259614D7EE17001E0E85 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5259514D7EE17001E0E85 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -287,12 +287,6 @@
 		2A4DC0AB14D6E12300A17363 /* SHKViewControllerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKViewControllerWrapper.h; sourceTree = "<group>"; };
 		2A4DC0AC14D6E12300A17363 /* SHKViewControllerWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKViewControllerWrapper.m; sourceTree = "<group>"; };
 		2A4DC0ED14D6E33800A17363 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		2A4DC0EF14D6EA0100A17363 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
-		2A4DC0F114D6EA0300A17363 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		2A4DC0F314D6EA0600A17363 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
-		2A4DC0F514D6EA0800A17363 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
-		2A4DC0F714D6EA1900A17363 /* WelcomeBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WelcomeBg@2x.png"; sourceTree = "<group>"; };
-		2A4DC0F814D6EA1900A17363 /* WelcomeBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomeBg.png; sourceTree = "<group>"; };
 		2A4DC0FB14D6EDDA00A17363 /* 15-tags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-tags.png"; sourceTree = "<group>"; };
 		2A4DC0FC14D6EDDA00A17363 /* 15-tags@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-tags@2x.png"; sourceTree = "<group>"; };
 		2A4DC0FF14D6EE2700A17363 /* 104-index-cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "104-index-cards.png"; sourceTree = "<group>"; };
@@ -311,14 +305,14 @@
 		2A93890414D6C694005C8345 /* FGalleryPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryPhoto.m; sourceTree = "<group>"; };
 		2A93891414D6D60D005C8345 /* photo-gallery-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-right.png"; sourceTree = "<group>"; };
 		2A93891514D6D60D005C8345 /* photo-gallery-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-left.png"; sourceTree = "<group>"; };
-		2AA3B48414D2B43B00922477 /* Ragefaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ragefaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA3B48414D2B43B00922477 /* Ragepeel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ragepeel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA3B48814D2B43B00922477 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2AA3B48A14D2B43B00922477 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2AA3B48C14D2B43B00922477 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2AA3B49014D2B43B00922477 /* Ragefaces-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ragefaces-Info.plist"; sourceTree = "<group>"; };
+		2AA3B49014D2B43B00922477 /* Ragepeel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ragepeel-Info.plist"; sourceTree = "<group>"; };
 		2AA3B49214D2B43B00922477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2AA3B49414D2B43B00922477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2AA3B49614D2B43B00922477 /* Ragefaces-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ragefaces-Prefix.pch"; sourceTree = "<group>"; };
+		2AA3B49614D2B43B00922477 /* Ragepeel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ragepeel-Prefix.pch"; sourceTree = "<group>"; };
 		2AA3B49714D2B43B00922477 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AA3B49814D2B43B00922477 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2AA3B49B14D2B43B00922477 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -353,6 +347,12 @@
 		2AA3B4DD14D2B92F00922477 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		2AA3B4DF14D2B93300922477 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		2AA3B4E114D2B9A300922477 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2AC5258B14D74211001E0E85 /* 291-idcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "291-idcard.png"; sourceTree = "<group>"; };
+		2AC5258C14D74211001E0E85 /* 291-idcard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "291-idcard@2x.png"; sourceTree = "<group>"; };
+		2AC5258F14D7ECE4001E0E85 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2AC5259114D7ECE7001E0E85 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2AC5259314D7EE14001E0E85 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2AC5259514D7EE17001E0E85 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -773,12 +773,6 @@
 		2A93891314D6D602005C8345 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				2A4DC0F514D6EA0800A17363 /* Icon.png */,
-				2A4DC0F314D6EA0600A17363 /* Icon@2x.png */,
-				2A4DC0F114D6EA0300A17363 /* Default.png */,
-				2A4DC0EF14D6EA0100A17363 /* Default@2x.png */,
-				2A4DC0F714D6EA1900A17363 /* WelcomeBg@2x.png */,
-				2A4DC0F814D6EA1900A17363 /* WelcomeBg.png */,
 				2A93891414D6D60D005C8345 /* photo-gallery-right.png */,
 				2A93891514D6D60D005C8345 /* photo-gallery-left.png */,
 				2A4DC0FB14D6EDDA00A17363 /* 15-tags.png */,
@@ -787,6 +781,8 @@
 				2A4DC10014D6EE2700A17363 /* 104-index-cards@2x.png */,
 				2A4DC10714D6EE6500A17363 /* 102-walk.png */,
 				2A4DC10814D6EE6500A17363 /* 102-walk@2x.png */,
+				2AC5258B14D74211001E0E85 /* 291-idcard.png */,
+				2AC5258C14D74211001E0E85 /* 291-idcard@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -794,6 +790,10 @@
 		2AA3B47914D2B43B00922477 = {
 			isa = PBXGroup;
 			children = (
+				2AC5259514D7EE17001E0E85 /* Default.png */,
+				2AC5259314D7EE14001E0E85 /* Default@2x.png */,
+				2AC5259114D7ECE7001E0E85 /* Icon.png */,
+				2AC5258F14D7ECE4001E0E85 /* Icon@2x.png */,
 				2AA3B48E14D2B43B00922477 /* Ragefac */,
 				2AA3B48714D2B43B00922477 /* Frameworks */,
 				2AA3B48514D2B43B00922477 /* Products */,
@@ -803,7 +803,7 @@
 		2AA3B48514D2B43B00922477 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AA3B48414D2B43B00922477 /* Ragefaces.app */,
+				2AA3B48414D2B43B00922477 /* Ragepeel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -844,10 +844,10 @@
 			isa = PBXGroup;
 			children = (
 				2A93891314D6D602005C8345 /* Images */,
-				2AA3B49014D2B43B00922477 /* Ragefaces-Info.plist */,
+				2AA3B49014D2B43B00922477 /* Ragepeel-Info.plist */,
 				2AA3B49114D2B43B00922477 /* InfoPlist.strings */,
 				2AA3B49414D2B43B00922477 /* main.m */,
-				2AA3B49614D2B43B00922477 /* Ragefaces-Prefix.pch */,
+				2AA3B49614D2B43B00922477 /* Ragepeel-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -912,9 +912,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AA3B48314D2B43B00922477 /* Ragefaces */ = {
+		2AA3B48314D2B43B00922477 /* Ragepeel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AA3B4AD14D2B43C00922477 /* Build configuration list for PBXNativeTarget "Ragefaces" */;
+			buildConfigurationList = 2AA3B4AD14D2B43C00922477 /* Build configuration list for PBXNativeTarget "Ragepeel" */;
 			buildPhases = (
 				2AA3B48014D2B43B00922477 /* Sources */,
 				2AA3B48114D2B43B00922477 /* Frameworks */,
@@ -924,9 +924,9 @@
 			);
 			dependencies = (
 			);
-			name = Ragefaces;
+			name = Ragepeel;
 			productName = Ragefac;
-			productReference = 2AA3B48414D2B43B00922477 /* Ragefaces.app */;
+			productReference = 2AA3B48414D2B43B00922477 /* Ragepeel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -937,7 +937,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 2AA3B47E14D2B43B00922477 /* Build configuration list for PBXProject "Ragefaces" */;
+			buildConfigurationList = 2AA3B47E14D2B43B00922477 /* Build configuration list for PBXProject "Ragepeel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -950,7 +950,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AA3B48314D2B43B00922477 /* Ragefaces */,
+				2AA3B48314D2B43B00922477 /* Ragepeel */,
 			);
 		};
 /* End PBXProject section */
@@ -967,18 +967,18 @@
 				2A4DC0C414D6E12300A17363 /* SHKSharers.plist in Resources */,
 				2A4DC0C914D6E12300A17363 /* Localizable.strings in Resources */,
 				2A4DC0D014D6E12300A17363 /* FBConnect.bundle in Resources */,
-				2A4DC0F014D6EA0100A17363 /* Default@2x.png in Resources */,
-				2A4DC0F214D6EA0300A17363 /* Default.png in Resources */,
-				2A4DC0F414D6EA0600A17363 /* Icon@2x.png in Resources */,
-				2A4DC0F614D6EA0800A17363 /* Icon.png in Resources */,
-				2A4DC0F914D6EA1900A17363 /* WelcomeBg@2x.png in Resources */,
-				2A4DC0FA14D6EA1900A17363 /* WelcomeBg.png in Resources */,
 				2A4DC0FD14D6EDDA00A17363 /* 15-tags.png in Resources */,
 				2A4DC0FE14D6EDDA00A17363 /* 15-tags@2x.png in Resources */,
 				2A4DC10114D6EE2700A17363 /* 104-index-cards.png in Resources */,
 				2A4DC10214D6EE2700A17363 /* 104-index-cards@2x.png in Resources */,
 				2A4DC10914D6EE6500A17363 /* 102-walk.png in Resources */,
 				2A4DC10A14D6EE6500A17363 /* 102-walk@2x.png in Resources */,
+				2AC5258D14D74211001E0E85 /* 291-idcard.png in Resources */,
+				2AC5258E14D74211001E0E85 /* 291-idcard@2x.png in Resources */,
+				2AC5259014D7ECE4001E0E85 /* Icon@2x.png in Resources */,
+				2AC5259214D7ECE7001E0E85 /* Icon.png in Resources */,
+				2AC5259414D7EE14001E0E85 /* Default@2x.png in Resources */,
+				2AC5259614D7EE17001E0E85 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1117,7 +1117,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -1142,9 +1145,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -1153,6 +1160,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1162,10 +1171,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ragefac/Ragefaces-Prefix.pch";
-				INFOPLIST_FILE = "Ragefac/Ragefaces-Info.plist";
+				GCC_PREFIX_HEADER = "Ragefac/Ragepeel-Prefix.pch";
+				INFOPLIST_FILE = "Ragefac/Ragepeel-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = Ragefaces;
+				PRODUCT_NAME = Ragepeel;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1173,11 +1182,13 @@
 		2AA3B4AF14D2B43C00922477 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ragefac/Ragefaces-Prefix.pch";
-				INFOPLIST_FILE = "Ragefac/Ragefaces-Info.plist";
+				GCC_PREFIX_HEADER = "Ragefac/Ragepeel-Prefix.pch";
+				INFOPLIST_FILE = "Ragefac/Ragepeel-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = Ragefaces;
+				PRODUCT_NAME = Ragepeel;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1185,7 +1196,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AA3B47E14D2B43B00922477 /* Build configuration list for PBXProject "Ragefaces" */ = {
+		2AA3B47E14D2B43B00922477 /* Build configuration list for PBXProject "Ragepeel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AA3B4AB14D2B43C00922477 /* Debug */,
@@ -1194,7 +1205,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AA3B4AD14D2B43C00922477 /* Build configuration list for PBXNativeTarget "Ragefaces" */ = {
+		2AA3B4AD14D2B43C00922477 /* Build configuration list for PBXNativeTarget "Ragepeel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AA3B4AE14D2B43C00922477 /* Debug */,

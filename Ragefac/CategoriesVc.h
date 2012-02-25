@@ -7,7 +7,30 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-@interface CategoriesVc : UIViewController
+#import "FGalleryViewController.h"
+#import "DSActivityView.h"
+
+#import "SHKTwitter.h"
+#import "SHKFacebook.h"
+
+@interface CategoriesVc : UIViewController <UITableViewDataSource,UITableViewDelegate,FGalleryViewControllerDelegate,UIActionSheetDelegate>
+{
+    AppDelegate *appDelegate;
+    
+    /* GUI */
+    IBOutlet UITableView *mainTableView;
+    
+    /* Gallery */
+    FGalleryViewController *galleryVc;
+    NSMutableArray *captionsArray;
+    NSMutableArray *imagesArray;
+}
+
+- (void)refreshCategories:(id)sender;
+- (void)showGallery:(id)sender;
+- (void)saveFace:(id)sender;
+- (void)shareFace:(id)sender;
 
 @end

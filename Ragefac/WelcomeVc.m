@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+#import "Constants.h"
 #import "WelcomeVc.h"
 
 @implementation WelcomeVc
@@ -36,13 +37,12 @@
 }
 */
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    appDelegate=(AppDelegate*)[[UIApplication sharedApplication] delegate];
 }
-*/
 
 - (void)viewDidUnload
 {
@@ -55,6 +55,25 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(refreshStatistics:) name:kNotificationApiQueryDone object:nil];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kNotificationApiQueryDone object:nil];
+}
+
+- (void)refreshStatistics:(id)sender
+{
+    if(kDebug)NSLog(@"DEBUG: refreshStatistics");
+    totalFacesLabel.text=[NSString stringWithFormat:@"%d faces in total",appDelegate.apiLastFacesCount];
+    totalViewsLabel.text=[NSString stringWithFormat:@"%d faces viewed",appDelegate.apiLastTotalCount];
 }
 
 @end

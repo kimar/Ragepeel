@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface WelcomeVc : UIViewController
+{
+    AppDelegate *appDelegate;
+    
+    /* GUI */
+    IBOutlet UILabel *totalFacesLabel;
+    IBOutlet UILabel *totalViewsLabel;
+    
+}
+
+- (void)refreshStatistics:(id)sender;
 
 @end

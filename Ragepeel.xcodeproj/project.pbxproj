@@ -127,6 +127,7 @@
 		2AC5259214D7ECE7001E0E85 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5259114D7ECE7001E0E85 /* Icon.png */; };
 		2AC5259414D7EE14001E0E85 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5259314D7EE14001E0E85 /* Default@2x.png */; };
 		2AC5259614D7EE17001E0E85 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5259514D7EE17001E0E85 /* Default.png */; };
+		ED3C38D51631CB2E00FF1967 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3C38D41631CB2E00FF1967 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -353,6 +354,7 @@
 		2AC5259114D7ECE7001E0E85 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		2AC5259314D7EE14001E0E85 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2AC5259514D7EE17001E0E85 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ED3C38D41631CB2E00FF1967 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -790,6 +792,7 @@
 		2AA3B47914D2B43B00922477 = {
 			isa = PBXGroup;
 			children = (
+				ED3C38D41631CB2E00FF1967 /* Default-568h@2x.png */,
 				2AC5259514D7EE17001E0E85 /* Default.png */,
 				2AC5259314D7EE14001E0E85 /* Default@2x.png */,
 				2AC5259114D7ECE7001E0E85 /* Icon.png */,
@@ -979,6 +982,7 @@
 				2AC5259214D7ECE7001E0E85 /* Icon.png in Resources */,
 				2AC5259414D7EE14001E0E85 /* Default@2x.png in Resources */,
 				2AC5259614D7EE17001E0E85 /* Default.png in Resources */,
+				ED3C38D51631CB2E00FF1967 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1122,6 +1126,7 @@
 					armv6,
 				);
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Marcus Kida (9V2E3Q9G27)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1137,6 +1142,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "9EC24386-44C9-449C-9A11-B3800FA27731";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1150,7 +1156,7 @@
 					armv6,
 				);
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Marcus Kida (9V2E3Q9G27)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1160,7 +1166,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "9EC24386-44C9-449C-9A11-B3800FA27731";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
